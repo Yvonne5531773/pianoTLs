@@ -27,6 +27,7 @@ cc.Class({
 		this.node.on("touchstart", touchFunc, false)
 	},
 
+
 	// update (dt) {
 	// 	this._mainScript._start && (console.log('start'))
 	// },

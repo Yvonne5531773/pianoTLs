@@ -5,9 +5,9 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 131,
+      "x": 348,
       "y": 0,
-      "width": 1354,
+      "width": 1514,
       "height": 1057,
       "layout": {
         "children": [
@@ -20,7 +20,7 @@
                 ],
                 "height": 355,
                 "type": "panel",
-                "width": 223
+                "width": 251
               },
               {
                 "active": 0,
@@ -29,12 +29,12 @@
                 ],
                 "height": 571,
                 "type": "panel",
-                "width": 223
+                "width": 251
               }
             ],
             "height": 929,
             "type": "dock-v",
-            "width": 223
+            "width": 251
           },
           {
             "children": [
@@ -45,7 +45,7 @@
                 ],
                 "height": 554,
                 "type": "panel",
-                "width": 782
+                "width": 764
               },
               {
                 "active": 0,
@@ -55,22 +55,22 @@
                 ],
                 "height": 372,
                 "type": "panel",
-                "width": 782
+                "width": 764
               }
             ],
             "height": 929,
             "type": "dock-v",
-            "width": 782
+            "width": 764
           },
           {
-            "active": 0,
+            "active": 1,
             "children": [
               "inspector",
               "node-library"
             ],
             "height": 929,
             "type": "panel",
-            "width": 321
+            "width": 471
           }
         ],
         "type": "dock-h"
@@ -83,32 +83,6 @@
         "assets",
         "scene",
         "timeline"
-      ]
-    },
-    "window-1522235476820": {
-      "main": false,
-      "url": "unpack://static/window.html",
-      "windowType": "dockable",
-      "x": 672,
-      "y": 245,
-      "width": 580,
-      "height": 565,
-      "layout": {
-        "children": [
-          {
-            "active": 0,
-            "children": [
-              "preferences"
-            ],
-            "height": 526,
-            "type": "panel",
-            "width": 564
-          }
-        ],
-        "type": "dock-v"
-      },
-      "panels": [
-        "preferences"
       ]
     }
   },

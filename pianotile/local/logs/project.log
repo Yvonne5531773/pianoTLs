@@ -1,54 +1,55 @@
-2018-03-28T12:54:39.280Z - normal: Load ~/.CocosCreator/settings.json
-2018-03-28T12:54:39.286Z - normal: checking language setting...
-2018-03-28T12:54:39.286Z - normal: Language: en
-2018-03-28T12:54:42.325Z - success: protocol editor-framework registered
-2018-03-28T12:54:42.325Z - success: protocol app registered
-2018-03-28T12:54:42.325Z - success: protocol theme registered
-2018-03-28T12:54:42.325Z - success: protocol packages registered
-2018-03-28T12:54:42.325Z - success: protocol unpack registerred
-2018-03-28T12:54:42.325Z - success: protocol disable-commonjs registerred
-2018-03-28T12:54:42.709Z - normal: connected!
-2018-03-28T12:54:42.712Z - normal: Check project F:\development\code\pianotile
-2018-03-28T12:54:42.716Z - normal: Initializing Cocos2d
-2018-03-28T12:54:43.609Z - normal: Initializing Asset Database
-2018-03-28T12:54:43.703Z - success: protocol uuid registerred
-2018-03-28T12:54:43.703Z - success: protocol db registerred
-2018-03-28T12:54:43.703Z - success: protocol thumbnail registerred
-2018-03-28T12:54:43.704Z - normal: Loading editor/builtin packages
-2018-03-28T12:54:43.732Z - success: anysdk loaded
-2018-03-28T12:54:43.916Z - success: assets loaded
-2018-03-28T12:54:43.922Z - success: builder loaded
-2018-03-28T12:54:43.927Z - success: cocos-analytics loaded
-2018-03-28T12:54:43.935Z - success: console loaded
-2018-03-28T12:54:43.990Z - success: fb-instant-games loaded
-2018-03-28T12:54:43.996Z - success: hierarchy loaded
-2018-03-28T12:54:44.002Z - success: inspector loaded
-2018-03-28T12:54:44.007Z - success: keystore loaded
-2018-03-28T12:54:44.014Z - success: node-library loaded
-2018-03-28T12:54:44.019Z - success: package-asset loaded
-2018-03-28T12:54:44.027Z - success: preferences loaded
-2018-03-28T12:54:44.037Z - success: project-exporter loaded
-2018-03-28T12:54:44.064Z - success: project-importer loaded
-2018-03-28T12:54:44.066Z - success: project-settings loaded
-2018-03-28T12:54:44.069Z - success: ui-kit loaded
-2018-03-28T12:54:44.071Z - success: ui-grid loaded
-2018-03-28T12:54:44.075Z - success: scene loaded
-2018-03-28T12:54:44.077Z - success: sprite-editor loaded
-2018-03-28T12:54:44.081Z - success: store loaded
-2018-03-28T12:54:44.089Z - success: timeline loaded
-2018-03-28T12:54:44.090Z - normal: Loading builtin packages
-2018-03-28T12:54:44.110Z - success: asset-db-debugger loaded
-2018-03-28T12:54:44.113Z - success: code-editor loaded
-2018-03-28T12:54:44.114Z - success: color-picker loaded
-2018-03-28T12:54:44.119Z - success: package-manager loaded
-2018-03-28T12:54:44.127Z - success: sdkbox loaded
-2018-03-28T12:54:44.131Z - success: tester loaded
-2018-03-28T12:54:44.133Z - success: ui-kit-preview-extra loaded
-2018-03-28T12:54:44.135Z - success: ui-kit-preview loaded
-2018-03-28T12:54:44.136Z - success: ui-tree loaded
-2018-03-28T12:54:46.820Z - normal: Initializing project F:\development\code\pianotile
-2018-03-28T12:54:46.831Z - normal: Loading packages
-2018-03-28T12:54:46.846Z - normal: Watching packages
-2018-03-28T12:54:46.874Z - normal: Run Application
-2018-03-28T12:54:51.033Z - success: preview server running at http://localhost:7456
-2018-03-28T12:55:18.327Z - normal: 1.9.0
+2018-03-28T14:22:50.711Z - normal: Load ~/.CocosCreator/settings.json
+2018-03-28T14:22:50.717Z - normal: checking language setting...
+2018-03-28T14:22:50.718Z - normal: Language: zh
+2018-03-28T14:22:55.903Z - success: protocol editor-framework registered
+2018-03-28T14:22:55.903Z - success: protocol app registered
+2018-03-28T14:22:55.903Z - success: protocol theme registered
+2018-03-28T14:22:55.903Z - success: protocol packages registered
+2018-03-28T14:22:55.903Z - success: protocol unpack registerred
+2018-03-28T14:22:55.903Z - success: protocol disable-commonjs registerred
+2018-03-28T14:22:56.307Z - normal: connected!
+2018-03-28T14:22:56.311Z - normal: Check project D:\develop\pianoTLs\pianotile
+2018-03-28T14:22:56.313Z - normal: Initializing Cocos2d
+2018-03-28T14:22:58.220Z - normal: Initializing Asset Database
+2018-03-28T14:22:58.255Z - success: protocol uuid registerred
+2018-03-28T14:22:58.255Z - success: protocol db registerred
+2018-03-28T14:22:58.256Z - success: protocol thumbnail registerred
+2018-03-28T14:22:58.256Z - normal: Loading editor/builtin packages
+2018-03-28T14:22:58.286Z - success: anysdk loaded
+2018-03-28T14:22:58.426Z - success: assets loaded
+2018-03-28T14:22:58.428Z - success: builder loaded
+2018-03-28T14:22:58.431Z - success: cocos-analytics loaded
+2018-03-28T14:22:58.434Z - success: console loaded
+2018-03-28T14:22:58.479Z - success: fb-instant-games loaded
+2018-03-28T14:22:58.482Z - success: hierarchy loaded
+2018-03-28T14:22:58.485Z - success: inspector loaded
+2018-03-28T14:22:58.486Z - success: keystore loaded
+2018-03-28T14:22:58.489Z - success: node-library loaded
+2018-03-28T14:22:58.490Z - success: package-asset loaded
+2018-03-28T14:22:58.492Z - success: preferences loaded
+2018-03-28T14:22:58.494Z - success: project-exporter loaded
+2018-03-28T14:22:58.511Z - success: project-importer loaded
+2018-03-28T14:22:58.513Z - success: project-settings loaded
+2018-03-28T14:22:58.515Z - success: ui-kit loaded
+2018-03-28T14:22:58.516Z - success: ui-grid loaded
+2018-03-28T14:22:58.520Z - success: scene loaded
+2018-03-28T14:22:58.521Z - success: sprite-editor loaded
+2018-03-28T14:22:58.523Z - success: store loaded
+2018-03-28T14:22:58.527Z - success: timeline loaded
+2018-03-28T14:22:58.527Z - normal: Loading builtin packages
+2018-03-28T14:22:58.529Z - success: asset-db-debugger loaded
+2018-03-28T14:22:58.530Z - success: code-editor loaded
+2018-03-28T14:22:58.531Z - success: color-picker loaded
+2018-03-28T14:22:58.533Z - success: package-manager loaded
+2018-03-28T14:22:58.538Z - success: sdkbox loaded
+2018-03-28T14:22:58.541Z - success: tester loaded
+2018-03-28T14:22:58.542Z - success: ui-kit-preview-extra loaded
+2018-03-28T14:22:58.544Z - success: ui-kit-preview loaded
+2018-03-28T14:22:58.545Z - success: ui-tree loaded
+2018-03-28T14:22:59.718Z - normal: Initializing project D:\develop\pianoTLs\pianotile
+2018-03-28T14:22:59.727Z - normal: Loading packages
+2018-03-28T14:22:59.731Z - normal: Watching packages
+2018-03-28T14:22:59.742Z - normal: Run Application
+2018-03-28T14:23:01.056Z - success: preview server running at http://localhost:7456
+2018-03-28T14:23:05.923Z - normal: 1.9.0
+2018-03-28T15:54:00.763Z - info: Path: Canvas/move-panel, UUID: 025f53B2BNIWJDn308jiiQU

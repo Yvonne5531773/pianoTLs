@@ -26,6 +26,7 @@ var TileBase = function(e) {
 	}
 	return __extends(t, e),
 		t.prototype.initTile = function (e) {
+		console.log('initTile e', e)
 			this.tileHeight = e,
 				this.isTouch = !1,
 				this.isDestroy = !1,
@@ -143,7 +144,7 @@ var GameScene1 = function(e) {
 			t._gameTile = new GameTiles,
 			t.addChild(t._gameTile),
 			t._line = new egret.Shape,
-			t.addChild(t._line),
+			t.addChild(t._line), //中间线
 			t._scoreTxt = new egret.TextField,
 			t._scoreTxt.size = 80,
 			t._scoreTxt.y = 15,
@@ -313,6 +314,7 @@ var GameScene1 = function(e) {
 				GameData.speed = GameData.currentMusicData.speed,
 				this._gameTile.initGame(),
 				this._scoreTxt.text = GameData.currentScore.toString()
+			console.log('replayGame GameData currentMusicData', GameData.currentMusicData)
 		},
 		t.prototype.goHome = function() {},
 		t.prototype.onResizeHandler = function(t) {
@@ -399,8 +401,6 @@ var GameTiles = function(e) {
 		var t = e.call(this) || this;
 		return t._soundArr = [],
 			t._idx = 0,
-			t._tapArr = [],
-			t._emptyArr = [],
 			t._preTx = -1,
 			t._tx = -1,
 			t._arr = [0, 1, 2, 3],
@@ -425,14 +425,21 @@ var GameTiles = function(e) {
 				     this._tilesArr = []; this.numChildren > 0; )
 				e = this.getChildAt(0),
 					e.destroy();
-			for (var t = 0; t < GameData.vcount + 3; t++)
-				this._addTile(GameData.tileHeight)
+			console.log('initGame GameData tileHeight', GameData.tileHeight)
+			// for (var t = 0; t < GameData.vcount + 3; t++)
+			// 	this._addTile(GameData.tileHeight)
 		},
 		t.prototype._addTile = function(e) {
+			console.log('_addTile e', e)
 			var t, a;
+			console.log('_addTile XFlash.stage', XFlash.stage)
 			a = 0 == this._tilesArr.length ? XFlash.stage.stageHeight - e : this._tilesArr[this._tilesArr.length - 1].y;
 			var i = XFlash.randInt(0, this._arr.length - 1)
 				, n = this._arr[i];
+			console.log('_addTile this._arr', this._arr)
+			console.log('_addTile i', i)
+			console.log('_addTile n', n)
+			console.log('_addTile a', a)
 			if (this._arr.splice(i, 1),
 				-1 != this._preTx && this._arr.push(this._preTx),
 				0 == this.numChildren)
@@ -574,6 +581,7 @@ var GameTiles = function(e) {
 			for (var e, t = this.numChildren - 1; t >= 0; t--)
 				e = this.getChildAt(t),
 					e.y += GameData.speed,
+				console.log('GameData.speed', GameData.speed)
 				e == this.getCurrentTile() && e.y > XFlash.stage.stageHeight && (this.gameOver(),
 					this._scrollBack()),
 				0 == e.isDestroy && e.y >= XFlash.stage.stageHeight + e.height && (e.destroy(),

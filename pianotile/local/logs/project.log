@@ -1,0 +1,54 @@
+2018-03-28T12:54:39.280Z - normal: Load ~/.CocosCreator/settings.json
+2018-03-28T12:54:39.286Z - normal: checking language setting...
+2018-03-28T12:54:39.286Z - normal: Language: en
+2018-03-28T12:54:42.325Z - success: protocol editor-framework registered
+2018-03-28T12:54:42.325Z - success: protocol app registered
+2018-03-28T12:54:42.325Z - success: protocol theme registered
+2018-03-28T12:54:42.325Z - success: protocol packages registered
+2018-03-28T12:54:42.325Z - success: protocol unpack registerred
+2018-03-28T12:54:42.325Z - success: protocol disable-commonjs registerred
+2018-03-28T12:54:42.709Z - normal: connected!
+2018-03-28T12:54:42.712Z - normal: Check project F:\development\code\pianotile
+2018-03-28T12:54:42.716Z - normal: Initializing Cocos2d
+2018-03-28T12:54:43.609Z - normal: Initializing Asset Database
+2018-03-28T12:54:43.703Z - success: protocol uuid registerred
+2018-03-28T12:54:43.703Z - success: protocol db registerred
+2018-03-28T12:54:43.703Z - success: protocol thumbnail registerred
+2018-03-28T12:54:43.704Z - normal: Loading editor/builtin packages
+2018-03-28T12:54:43.732Z - success: anysdk loaded
+2018-03-28T12:54:43.916Z - success: assets loaded
+2018-03-28T12:54:43.922Z - success: builder loaded
+2018-03-28T12:54:43.927Z - success: cocos-analytics loaded
+2018-03-28T12:54:43.935Z - success: console loaded
+2018-03-28T12:54:43.990Z - success: fb-instant-games loaded
+2018-03-28T12:54:43.996Z - success: hierarchy loaded
+2018-03-28T12:54:44.002Z - success: inspector loaded
+2018-03-28T12:54:44.007Z - success: keystore loaded
+2018-03-28T12:54:44.014Z - success: node-library loaded
+2018-03-28T12:54:44.019Z - success: package-asset loaded
+2018-03-28T12:54:44.027Z - success: preferences loaded
+2018-03-28T12:54:44.037Z - success: project-exporter loaded
+2018-03-28T12:54:44.064Z - success: project-importer loaded
+2018-03-28T12:54:44.066Z - success: project-settings loaded
+2018-03-28T12:54:44.069Z - success: ui-kit loaded
+2018-03-28T12:54:44.071Z - success: ui-grid loaded
+2018-03-28T12:54:44.075Z - success: scene loaded
+2018-03-28T12:54:44.077Z - success: sprite-editor loaded
+2018-03-28T12:54:44.081Z - success: store loaded
+2018-03-28T12:54:44.089Z - success: timeline loaded
+2018-03-28T12:54:44.090Z - normal: Loading builtin packages
+2018-03-28T12:54:44.110Z - success: asset-db-debugger loaded
+2018-03-28T12:54:44.113Z - success: code-editor loaded
+2018-03-28T12:54:44.114Z - success: color-picker loaded
+2018-03-28T12:54:44.119Z - success: package-manager loaded
+2018-03-28T12:54:44.127Z - success: sdkbox loaded
+2018-03-28T12:54:44.131Z - success: tester loaded
+2018-03-28T12:54:44.133Z - success: ui-kit-preview-extra loaded
+2018-03-28T12:54:44.135Z - success: ui-kit-preview loaded
+2018-03-28T12:54:44.136Z - success: ui-tree loaded
+2018-03-28T12:54:46.820Z - normal: Initializing project F:\development\code\pianotile
+2018-03-28T12:54:46.831Z - normal: Loading packages
+2018-03-28T12:54:46.846Z - normal: Watching packages
+2018-03-28T12:54:46.874Z - normal: Run Application
+2018-03-28T12:54:51.033Z - success: preview server running at http://localhost:7456
+2018-03-28T12:55:18.327Z - normal: 1.9.0

@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.Prefab",
-    "_name": "black-tile",
+    "_name": "red-tile",
     "_objFlags": 0,
     "_rawFiles": null,
     "data": {
@@ -11,7 +11,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "black-block",
+    "_name": "red-tile",
     "_objFlags": 0,
     "_parent": null,
     "_children": [],
@@ -54,8 +54,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": -946,
-      "y": -164
+      "x": 44,
+      "y": -172
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -73,10 +73,10 @@
     },
     "_enabled": true,
     "_spriteFrame": {
-      "__uuid__": "94b238fb-3cbd-4961-a29e-9e2ad59567d9"
+      "__uuid__": "08c051b2-e9f0-416c-88b0-a29f74e3a825"
     },
     "_type": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 1,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -99,7 +99,8 @@
     },
     "_enabled": true,
     "_type": null,
-    "_mainScript": null
+    "_mainScript": null,
+    "_destory": null
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -107,9 +108,9 @@
       "__id__": 1
     },
     "asset": {
-      "__uuid__": "f8682b90-d2e3-442f-8ac6-5bd8830420b0"
+      "__uuid__": "580ecb74-5611-4ca3-b7bd-045de488df84"
     },
-    "fileId": "35mJFGoGdM6IgmmnD8RXRw",
+    "fileId": "f9lS5mqptMvL2SvUCEgUEW",
     "sync": false
   }
 ]

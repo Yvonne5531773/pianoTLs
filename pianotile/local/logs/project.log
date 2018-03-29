@@ -1,55 +1,130 @@
-2018-03-28T14:22:50.711Z - normal: Load ~/.CocosCreator/settings.json
-2018-03-28T14:22:50.717Z - normal: checking language setting...
-2018-03-28T14:22:50.718Z - normal: Language: zh
-2018-03-28T14:22:55.903Z - success: protocol editor-framework registered
-2018-03-28T14:22:55.903Z - success: protocol app registered
-2018-03-28T14:22:55.903Z - success: protocol theme registered
-2018-03-28T14:22:55.903Z - success: protocol packages registered
-2018-03-28T14:22:55.903Z - success: protocol unpack registerred
-2018-03-28T14:22:55.903Z - success: protocol disable-commonjs registerred
-2018-03-28T14:22:56.307Z - normal: connected!
-2018-03-28T14:22:56.311Z - normal: Check project D:\develop\pianoTLs\pianotile
-2018-03-28T14:22:56.313Z - normal: Initializing Cocos2d
-2018-03-28T14:22:58.220Z - normal: Initializing Asset Database
-2018-03-28T14:22:58.255Z - success: protocol uuid registerred
-2018-03-28T14:22:58.255Z - success: protocol db registerred
-2018-03-28T14:22:58.256Z - success: protocol thumbnail registerred
-2018-03-28T14:22:58.256Z - normal: Loading editor/builtin packages
-2018-03-28T14:22:58.286Z - success: anysdk loaded
-2018-03-28T14:22:58.426Z - success: assets loaded
-2018-03-28T14:22:58.428Z - success: builder loaded
-2018-03-28T14:22:58.431Z - success: cocos-analytics loaded
-2018-03-28T14:22:58.434Z - success: console loaded
-2018-03-28T14:22:58.479Z - success: fb-instant-games loaded
-2018-03-28T14:22:58.482Z - success: hierarchy loaded
-2018-03-28T14:22:58.485Z - success: inspector loaded
-2018-03-28T14:22:58.486Z - success: keystore loaded
-2018-03-28T14:22:58.489Z - success: node-library loaded
-2018-03-28T14:22:58.490Z - success: package-asset loaded
-2018-03-28T14:22:58.492Z - success: preferences loaded
-2018-03-28T14:22:58.494Z - success: project-exporter loaded
-2018-03-28T14:22:58.511Z - success: project-importer loaded
-2018-03-28T14:22:58.513Z - success: project-settings loaded
-2018-03-28T14:22:58.515Z - success: ui-kit loaded
-2018-03-28T14:22:58.516Z - success: ui-grid loaded
-2018-03-28T14:22:58.520Z - success: scene loaded
-2018-03-28T14:22:58.521Z - success: sprite-editor loaded
-2018-03-28T14:22:58.523Z - success: store loaded
-2018-03-28T14:22:58.527Z - success: timeline loaded
-2018-03-28T14:22:58.527Z - normal: Loading builtin packages
-2018-03-28T14:22:58.529Z - success: asset-db-debugger loaded
-2018-03-28T14:22:58.530Z - success: code-editor loaded
-2018-03-28T14:22:58.531Z - success: color-picker loaded
-2018-03-28T14:22:58.533Z - success: package-manager loaded
-2018-03-28T14:22:58.538Z - success: sdkbox loaded
-2018-03-28T14:22:58.541Z - success: tester loaded
-2018-03-28T14:22:58.542Z - success: ui-kit-preview-extra loaded
-2018-03-28T14:22:58.544Z - success: ui-kit-preview loaded
-2018-03-28T14:22:58.545Z - success: ui-tree loaded
-2018-03-28T14:22:59.718Z - normal: Initializing project D:\develop\pianoTLs\pianotile
-2018-03-28T14:22:59.727Z - normal: Loading packages
-2018-03-28T14:22:59.731Z - normal: Watching packages
-2018-03-28T14:22:59.742Z - normal: Run Application
-2018-03-28T14:23:01.056Z - success: preview server running at http://localhost:7456
-2018-03-28T14:23:05.923Z - normal: 1.9.0
-2018-03-28T15:54:00.763Z - info: Path: Canvas/move-panel, UUID: 025f53B2BNIWJDn308jiiQU
+2018-03-29T12:02:38.845Z - normal: Load ~/.CocosCreator/settings.json
+2018-03-29T12:02:38.855Z - normal: checking language setting...
+2018-03-29T12:02:38.855Z - normal: Language: zh
+2018-03-29T12:02:41.249Z - success: protocol editor-framework registered
+2018-03-29T12:02:41.250Z - success: protocol app registered
+2018-03-29T12:02:41.250Z - success: protocol theme registered
+2018-03-29T12:02:41.250Z - success: protocol packages registered
+2018-03-29T12:02:41.250Z - success: protocol unpack registerred
+2018-03-29T12:02:41.250Z - success: protocol disable-commonjs registerred
+2018-03-29T12:02:41.681Z - normal: connected!
+2018-03-29T12:02:41.687Z - normal: Check project F:\development\code\pianotile
+2018-03-29T12:02:41.693Z - normal: Initializing Cocos2d
+2018-03-29T12:02:42.060Z - normal: Initializing Asset Database
+2018-03-29T12:02:42.114Z - success: protocol uuid registerred
+2018-03-29T12:02:42.114Z - success: protocol db registerred
+2018-03-29T12:02:42.114Z - success: protocol thumbnail registerred
+2018-03-29T12:02:42.115Z - normal: Loading editor/builtin packages
+2018-03-29T12:02:42.147Z - success: anysdk loaded
+2018-03-29T12:02:42.322Z - success: assets loaded
+2018-03-29T12:02:42.324Z - success: builder loaded
+2018-03-29T12:02:42.334Z - success: cocos-analytics loaded
+2018-03-29T12:02:42.338Z - success: console loaded
+2018-03-29T12:02:42.390Z - success: fb-instant-games loaded
+2018-03-29T12:02:42.396Z - success: hierarchy loaded
+2018-03-29T12:02:42.399Z - success: inspector loaded
+2018-03-29T12:02:42.401Z - success: keystore loaded
+2018-03-29T12:02:42.404Z - success: node-library loaded
+2018-03-29T12:02:42.406Z - success: package-asset loaded
+2018-03-29T12:02:42.409Z - success: preferences loaded
+2018-03-29T12:02:42.412Z - success: project-exporter loaded
+2018-03-29T12:02:42.434Z - success: project-importer loaded
+2018-03-29T12:02:42.437Z - success: project-settings loaded
+2018-03-29T12:02:42.439Z - success: ui-kit loaded
+2018-03-29T12:02:42.441Z - success: ui-grid loaded
+2018-03-29T12:02:42.447Z - success: scene loaded
+2018-03-29T12:02:42.449Z - success: sprite-editor loaded
+2018-03-29T12:02:42.453Z - success: store loaded
+2018-03-29T12:02:42.458Z - success: timeline loaded
+2018-03-29T12:02:42.458Z - normal: Loading builtin packages
+2018-03-29T12:02:42.462Z - success: asset-db-debugger loaded
+2018-03-29T12:02:42.464Z - success: code-editor loaded
+2018-03-29T12:02:42.465Z - success: color-picker loaded
+2018-03-29T12:02:42.468Z - success: package-manager loaded
+2018-03-29T12:02:42.474Z - success: sdkbox loaded
+2018-03-29T12:02:42.479Z - success: tester loaded
+2018-03-29T12:02:42.481Z - success: ui-kit-preview-extra loaded
+2018-03-29T12:02:42.483Z - success: ui-kit-preview loaded
+2018-03-29T12:02:42.485Z - success: ui-tree loaded
+2018-03-29T12:02:44.052Z - normal: Initializing project F:\development\code\pianotile
+2018-03-29T12:02:44.057Z - normal: Loading packages
+2018-03-29T12:02:44.064Z - normal: Watching packages
+2018-03-29T12:02:44.080Z - normal: Run Application
+2018-03-29T12:02:45.482Z - success: preview server running at http://localhost:7456
+2018-03-29T12:02:54.682Z - normal: 1.9.0
+2018-03-29T12:31:28.924Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "F:\\development",
+  "debug": false,
+  "dest": "F:\\development\\wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.dontTouchHuaji-master",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "626a2bc1-9bc5-4222-b26a-2e6505d05667"
+  ],
+  "sourceMaps": false,
+  "startScene": "626a2bc1-9bc5-4222-b26a-2e6505d05667",
+  "template": "link",
+  "title": "pianoTile",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait"
+  },
+  "xxteaKey": "ce3967e5-bde3-49",
+  "zipCompressJs": true,
+  "project": "F:\\development\\code\\pianotile",
+  "projectName": "pianoTile",
+  "debugBuildWorker": false
+}
+2018-03-29T12:31:28.928Z - normal: Building F:\development\code\pianotile
+2018-03-29T12:31:28.928Z - normal: Destination F:\development\wechatgame
+2018-03-29T12:31:29.839Z - normal: Delete F:\development\wechatgame\**\*
+2018-03-29T12:31:33.203Z - normal: Compiled project javascript file successfully
+2018-03-29T12:31:33.204Z - normal: Start building assets
+2018-03-29T12:31:33.204Z - normal: Start spawn build-worker
+2018-03-29T12:31:34.537Z - normal: Finish spawn build-worker
+2018-03-29T12:31:34.538Z - normal: Start init build-worker
+2018-03-29T12:31:38.576Z - normal: 1.9.0
+2018-03-29T12:31:38.670Z - normal: Finish init build-worker
+2018-03-29T12:31:38.670Z - normal: Start build-assets in worker
+2018-03-29T12:31:39.233Z - normal: Finish build-assets in worker
+2018-03-29T12:31:39.245Z - normal: Finish building assets
+2018-03-29T12:31:39.263Z - normal: Start building raw assets
+2018-03-29T12:31:39.264Z - normal: Start building plugin scripts
+2018-03-29T12:31:39.312Z - normal: Finish building raw assets
+2018-03-29T12:31:39.353Z - normal: Generating main.js from F:\software\CocosCreator\resources\static\build-templates\shares\main.js
+2018-03-29T12:31:39.439Z - normal: Built to "F:\development\wechatgame" successfully

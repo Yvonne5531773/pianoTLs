@@ -2,7 +2,7 @@
 cc._RF.push(module, '848a4/HjVJKe54qv7Yg0j8B', 'tile-script', __filename);
 // scripts/tile-script.js
 
-"use strict";
+'use strict';
 
 cc.Class({
 	extends: cc.Component,
@@ -13,29 +13,69 @@ cc.Class({
 	},
 
 	init: function init(type, mainScript) {
+		var _this = this;
+
 		this._type = type;
 		this._mainScript = mainScript;
-		var touchFunc = function () {
-			console.log("init this._type", this._type);
-			if (this._type === 'start') {
-				this._mainScript._start = true;
-			} else if (this._type === "white") {
-				console.log("white white white");
+		var touchFunc = function touchFunc(e) {
+			e.stopPropagation();
+			console.log('in touchFunc');
+			if (_this._mainScript._tilesArr[_this._mainScript._curBottomRow] === _this.node) {
+				_this.node.opacity = 80;
+				_this.node.off("touchstart", touchFunc, false);
+				switch (_this._type) {
+					case 'START':
+						//播放音乐
+						_this._mainScript._start = true;
+						console.log('startstartstartstart');
+						_this._mainScript.node.on("touchstart", _this.onStartDown, _this);
+						break;
+					case 'BLACK':
+						//播放音乐
+						break;
+					case 'LONG':
+						//播放音乐
+						break;
+					default:
+						break;
+				}
+				var curTile = _this._mainScript._tilesArr[_this._mainScript._curBottomRow];
+				curTile._destory = !curTile._destory;
+				_this._mainScript._curBottomRow++;
 			} else {
-				var tileRow = this.node.name.split("#")[0];
-				if (parseInt(tileRow) !== this._mainScript._curTouchRow + 1) {
-					console.log("111111");
+				if (!_this._mainScript._start) return;
+				if (!!~['BLACK', 'LONG'].indexOf(_this.node.type)) {
+					console.log('nothing');
 				} else {
-					this._mainScript.move();
+					_this._mainScript.gameover(_this._mainScript._errors[0]);
 				}
 			}
-		}.bind(this);
-		this.node.on("touchstart", touchFunc, false);
+		};
+		this.node.on("touchstart", touchFunc, this);
+	},
+	onStartDown: function onStartDown(e) {
+		this._mainScript.node.off("touchstart", this.onStartDown, this);
+		e.stopPropagation();
+		var x = e.touch.getLocation().x;
+		var y = e.touch.getLocation().y;
+		console.log('onStartDown x', x);
+		console.log('onStartDown y', y);
+		var blockX = Math.floor(x / this._mainScript.tileWidth);
+		var blockY = 0;
+		console.log('onStartDown this._mainScript.movePanel.children', this._mainScript.movePanel.children);
+		for (var i = this._mainScript.movePanel.children.length - 1; i >= 0; i--) {
+			var distance = this._mainScript.movePanel.children[i].y - y;
+			if (distance <= this._mainScript.tileHeight && distance >= 0) {
+				blockY = i;
+				break;
+			}
+		}
+		this._mainScript.showWrongRedTile(blockX, blockY);
 	}
 }
 
 // update (dt) {
-// 	this._mainScript._start && (console.log('start'))
+//
 // },
 
 );

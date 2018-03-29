@@ -112,8 +112,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 265,
-      "y": 400
+      "x": 480,
+      "y": 320
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -164,8 +164,8 @@
     "_scaleY": 5,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": -16,
-      "y": 18
+      "x": 302,
+      "y": 133
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -608,7 +608,6 @@
     "speed": 10,
     "_newTopRow": null,
     "_curBottomRow": null,
-    "_curTouchRow": -1,
     "_startPosition": null,
     "_isFirstTile": true,
     "_start": false,
@@ -619,6 +618,7 @@
     "_arr": [],
     "_tilesArr": [],
     "_errors": [],
-    "_offestY": null
+    "_offestY": null,
+    "_soundArr": []
   }
 ]

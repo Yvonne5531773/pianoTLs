@@ -2490,13 +2490,13 @@ declare module cc {
 		*/
 		step() : void;		
 		/** !#en Pause the game main loop. This will pause:
-		game logic execution, rendering process, event manager, background music and all audio effects.
+		game logic execution, rendering process, event manager, background musics and all audio effects.
 		This is different with cc.director.pause which only pause the game logic execution.
 		!#zh 暂停游戏主循环。包含：游戏逻辑，渲染，事件处理，背景音乐和所有音效。这点和只暂停游戏逻辑的 cc.director.pause 不同。 
 		*/
 		pause() : void;		
 		/** !#en Resume the game from pause. This will resume:
-		game logic execution, rendering process, event manager, background music and all audio effects.
+		game logic execution, rendering process, event manager, background musics and all audio effects.
 		!#zh 恢复游戏主循环。包含：游戏逻辑，渲染，事件处理，背景音乐和所有音效。 
 		*/
 		resume() : void;		
@@ -3200,7 +3200,7 @@ declare module cc {
 		/** !#en Play audio.
 		!#zh 播放音频
 		@param filePath The path of the audio file without filename extension.
-		@param loop Whether the music loop or not.
+		@param loop Whether the musics loop or not.
 		@param volume Volume size.
 		
 		@example 
@@ -3245,7 +3245,7 @@ declare module cc {
 		``` 
 		*/
 		setVolume(audioID : number, volume : number) : void;		
-		/** !#en The volume of the music max value is 1.0,the min value is 0.0 .
+		/** !#en The volume of the musics max value is 1.0,the min value is 0.0 .
 		!#zh 获取音量（0.0 ~ 1.0）。
 		@param audioID audio id.
 		
@@ -4815,7 +4815,7 @@ declare module cc {
 		!#zh 恢复播放。 
 		*/
 		resume() : void;		
-		/** !#en Rewind playing music.
+		/** !#en Rewind playing musics.
 		!#zh 从头开始播放。 
 		*/
 		rewind() : void;		

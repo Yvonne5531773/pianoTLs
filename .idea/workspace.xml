@@ -1,7 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc59e87a-629e-440e-809f-e6ba240f4570" name="Default" comment="" />
+    <list default="true" id="dc59e87a-629e-440e-809f-e6ba240f4570" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/1.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pianotile/assets/json.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pianotile/assets/json/songs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pianotile/assets/json/songs/song.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pianotile/assets/json/songs/song.js.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pianotile/library/imports/99/99f595a9-bc1c-40c9-a51f-c467d2e0fdde.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pianotile/library/imports/99/99f595a9-bc1c-40c9-a51f-c467d2e0fdde.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pianotile/temp/quick-scripts/assets/json/songs/song.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pianotile/temp/quick-scripts/assets/json/songs/song.js.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game/forgame/js/libs/modules/egretFlax/egretFlax.min.js" afterPath="$PROJECT_DIR$/game/forgame/js/libs/modules/egretFlax/egretFlax.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/begin-tile.prefab" afterPath="$PROJECT_DIR$/pianotile/assets/begin-tile.prefab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/begin-tile.prefab.meta" afterPath="$PROJECT_DIR$/pianotile/assets/begin-tile.prefab.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/black-tile.prefab.meta" afterPath="$PROJECT_DIR$/pianotile/assets/black-tile.prefab.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/0.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/0.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/10.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/10.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/11.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/11.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/12.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/12.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/13.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/13.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/14.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/14.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/15.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/15.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/16.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/16.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/17.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/17.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/18.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/18.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/19.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/19.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/2.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/2.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/20.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/20.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/21.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/21.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/22.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/22.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/3.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/3.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/4.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/4.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/5.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/5.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/6.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/6.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/7.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/7.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/8.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/8.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/bg/9.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/bg/9.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/tiles/13.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/tiles/13.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/tiles/15.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/tiles/15.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/tiles/9.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/tiles/9.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/tiles/9x.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/tiles/9x.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/img/tiles/tile_white.png.meta" afterPath="$PROJECT_DIR$/pianotile/assets/img/tiles/tile_white.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/long-tile.prefab.meta" afterPath="$PROJECT_DIR$/pianotile/assets/long-tile.prefab.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/main-scene.fire" afterPath="$PROJECT_DIR$/pianotile/assets/main-scene.fire" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/main-scene.fire.meta" afterPath="$PROJECT_DIR$/pianotile/assets/main-scene.fire.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/red-tile.prefab.meta" afterPath="$PROJECT_DIR$/pianotile/assets/red-tile.prefab.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/scripts/main-script.js" afterPath="$PROJECT_DIR$/pianotile/assets/scripts/main-script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/scripts/main-script.js.meta" afterPath="$PROJECT_DIR$/pianotile/assets/scripts/main-script.js.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/scripts/tile-script.js" afterPath="$PROJECT_DIR$/pianotile/assets/scripts/tile-script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/scripts/tile-script.js.meta" afterPath="$PROJECT_DIR$/pianotile/assets/scripts/tile-script.js.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/assets/white-tile.prefab.meta" afterPath="$PROJECT_DIR$/pianotile/assets/white-tile.prefab.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/creator.d.ts" afterPath="$PROJECT_DIR$/pianotile/creator.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/00/0004d1cf-a0ad-47d8-ab17-34d3db9d35a3.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/00/0004d1cf-a0ad-47d8-ab17-34d3db9d35a3.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/00/007fca73-c9d5-49fb-808e-eae925aa14d1.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/00/007fca73-c9d5-49fb-808e-eae925aa14d1.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/03/036c692c-fda7-4261-9cee-22c2c01e4518.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/03/036c692c-fda7-4261-9cee-22c2c01e4518.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/08/08c051b2-e9f0-416c-88b0-a29f74e3a825.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/08/08c051b2-e9f0-416c-88b0-a29f74e3a825.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/09/09bed451-81bb-45ca-ae0d-70f9f3066c7c.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/09/09bed451-81bb-45ca-ae0d-70f9f3066c7c.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/0d/0d784963-d024-4ea6-a7db-03be0ad63010.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/0d/0d784963-d024-4ea6-a7db-03be0ad63010.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/0d/0dd17838-4398-42c8-ad7e-4e1a9d730eca.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/0d/0dd17838-4398-42c8-ad7e-4e1a9d730eca.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/0e/0e325134-c11b-410f-945b-e4fb1fd16078.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/0e/0e325134-c11b-410f-945b-e4fb1fd16078.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/16/16442cba-57d0-493e-b292-49c8caf9d785.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/16/16442cba-57d0-493e-b292-49c8caf9d785.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/19/19fff10b-7644-4e2d-bc87-549aea78d0de.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/19/19fff10b-7644-4e2d-bc87-549aea78d0de.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/1a/1a32fc76-f0bd-4f66-980f-56929c0ca0b3.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/1a/1a32fc76-f0bd-4f66-980f-56929c0ca0b3.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/1f/1f55e3be-b89b-4b79-88de-47fd31018044.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/1f/1f55e3be-b89b-4b79-88de-47fd31018044.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/21/2121eeac-de0d-4bdf-9be9-cca1883fc6f0.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/21/2121eeac-de0d-4bdf-9be9-cca1883fc6f0.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/23/232d2782-c4bd-4bb4-9e01-909f03d6d3b9.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/23/232d2782-c4bd-4bb4-9e01-909f03d6d3b9.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/27/27756ebb-3d33-44b0-9b96-e858fadd4dd4.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/27/27756ebb-3d33-44b0-9b96-e858fadd4dd4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/29/29158224-f8dd-4661-a796-1ffab537140e.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/29/29158224-f8dd-4661-a796-1ffab537140e.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/2c/2c937608-2562-40ea-b264-7395df6f0cea.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/2c/2c937608-2562-40ea-b264-7395df6f0cea.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/31/31d8962d-babb-4ec7-be19-8e9f54a4ea99.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/31/31d8962d-babb-4ec7-be19-8e9f54a4ea99.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/32/32044bd2-481f-4cf1-a656-e2b2fb1594eb.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/32/32044bd2-481f-4cf1-a656-e2b2fb1594eb.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/3d/3d25a1d6-c781-44bc-8df4-71cdce196228.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/3d/3d25a1d6-c781-44bc-8df4-71cdce196228.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/43/4387f21c-3bd7-40c6-91e0-18bf8a6e6dad.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/43/4387f21c-3bd7-40c6-91e0-18bf8a6e6dad.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/4a/4a37dd57-78cd-4cec-aad4-f11a73d12b63.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/4a/4a37dd57-78cd-4cec-aad4-f11a73d12b63.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/4b/4b10ce5a-1251-492e-9a53-d7d1a928f833.js" afterPath="$PROJECT_DIR$/pianotile/library/imports/4b/4b10ce5a-1251-492e-9a53-d7d1a928f833.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/4b/4b10ce5a-1251-492e-9a53-d7d1a928f833.js.map" afterPath="$PROJECT_DIR$/pianotile/library/imports/4b/4b10ce5a-1251-492e-9a53-d7d1a928f833.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/58/580ecb74-5611-4ca3-b7bd-045de488df84.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/58/580ecb74-5611-4ca3-b7bd-045de488df84.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/59/5965ffac-69da-4b55-bcde-9225d0613c28.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/59/5965ffac-69da-4b55-bcde-9225d0613c28.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/5c/5c3bb932-6c3c-468f-88a9-c8c61d458641.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/5c/5c3bb932-6c3c-468f-88a9-c8c61d458641.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/5f/5fe5dcaa-b513-4dc5-a166-573627b3a159.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/5f/5fe5dcaa-b513-4dc5-a166-573627b3a159.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/60/60916f10-c345-4f71-b06d-1f4b88fab2e8.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/60/60916f10-c345-4f71-b06d-1f4b88fab2e8.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/61/61aeb05b-3b32-452b-8eed-2b76deeed554.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/61/61aeb05b-3b32-452b-8eed-2b76deeed554.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/62/626a2bc1-9bc5-4222-b26a-2e6505d05667.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/62/626a2bc1-9bc5-4222-b26a-2e6505d05667.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/67/67e68bc9-dad5-4ad9-a2d8-7e03d458e32f.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/67/67e68bc9-dad5-4ad9-a2d8-7e03d458e32f.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/68/6827ca32-0107-4552-bab2-dfb31799bb44.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/68/6827ca32-0107-4552-bab2-dfb31799bb44.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/69/69387c1c-5ed2-40ef-a0b0-55cfbd2c8e68.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/69/69387c1c-5ed2-40ef-a0b0-55cfbd2c8e68.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/71/7168db62-0edc-42e5-be5d-682cf6c4a165.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/71/7168db62-0edc-42e5-be5d-682cf6c4a165.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/73/73863640-27ec-4430-b702-866b0efafff7.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/73/73863640-27ec-4430-b702-866b0efafff7.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/73/73ff7d4f-0c6f-4ed3-8916-d5aec5e677fa.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/73/73ff7d4f-0c6f-4ed3-8916-d5aec5e677fa.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/75/7501bebf-d9ac-4c18-a4d4-e53401d1c2fb.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/75/7501bebf-d9ac-4c18-a4d4-e53401d1c2fb.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/78/785a442c-3ceb-45be-a46e-7317f625f3b9.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/78/785a442c-3ceb-45be-a46e-7317f625f3b9.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/78/78f1181c-d439-4b46-9176-04597a5e0bb6.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/78/78f1181c-d439-4b46-9176-04597a5e0bb6.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/7d/7d4ffd94-42d6-4045-9db7-a744229adfc4.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/7d/7d4ffd94-42d6-4045-9db7-a744229adfc4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/7d/7de03a80-4457-438d-95a7-3e7cdffd6086.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/7d/7de03a80-4457-438d-95a7-3e7cdffd6086.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/81/8189fb15-8688-4a1f-9425-35655312bdb8.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/81/8189fb15-8688-4a1f-9425-35655312bdb8.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/84/848a4fc7-8d52-4a7b-9e2a-bfb620d23f01.js" afterPath="$PROJECT_DIR$/pianotile/library/imports/84/848a4fc7-8d52-4a7b-9e2a-bfb620d23f01.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/84/848a4fc7-8d52-4a7b-9e2a-bfb620d23f01.js.map" afterPath="$PROJECT_DIR$/pianotile/library/imports/84/848a4fc7-8d52-4a7b-9e2a-bfb620d23f01.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/88/8826d3db-e578-4ad9-ab6a-0d367a703909.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/88/8826d3db-e578-4ad9-ab6a-0d367a703909.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/88/88e79fd5-96b4-4a77-a1f4-312467171014.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/88/88e79fd5-96b4-4a77-a1f4-312467171014.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/8c/8c5001fd-07ee-4a4b-a8a0-63e15195e94d.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/8c/8c5001fd-07ee-4a4b-a8a0-63e15195e94d.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/8c/8cdb44ac-a3f6-449f-b354-7cd48cf84061.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/8c/8cdb44ac-a3f6-449f-b354-7cd48cf84061.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/90/90004ad6-2f6d-40e1-93ef-b714375c6f06.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/90/90004ad6-2f6d-40e1-93ef-b714375c6f06.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/94/94b238fb-3cbd-4961-a29e-9e2ad59567d9.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/94/94b238fb-3cbd-4961-a29e-9e2ad59567d9.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/95/95f36ca2-b053-4e12-8cdc-2902ff57b7e8.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/95/95f36ca2-b053-4e12-8cdc-2902ff57b7e8.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/96/96083d03-c332-4a3f-9386-d03e2d19e8ee.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/96/96083d03-c332-4a3f-9386-d03e2d19e8ee.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/97/972b9a4d-47ee-4c74-b5c3-61d8a69bc29f.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/97/972b9a4d-47ee-4c74-b5c3-61d8a69bc29f.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/9b/9bbda31e-ad49-43c9-aaf2-f7d9896bac69.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/9b/9bbda31e-ad49-43c9-aaf2-f7d9896bac69.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/a2/a23235d1-15db-4b95-8439-a2e005bfff91.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/a2/a23235d1-15db-4b95-8439-a2e005bfff91.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/ae/ae9b073c-d058-45c0-bc1b-88df7875c54a.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/ae/ae9b073c-d058-45c0-bc1b-88df7875c54a.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/b5/b504889f-9072-471e-9fe9-3e92be2c6b24.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/b5/b504889f-9072-471e-9fe9-3e92be2c6b24.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/ba/bab8dc46-5ef6-42db-8801-61cf719ec34a.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/ba/bab8dc46-5ef6-42db-8801-61cf719ec34a.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/bb/bb937b8f-6e29-4064-befa-be78c67ddee9.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/bb/bb937b8f-6e29-4064-befa-be78c67ddee9.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/bf/bf0a434c-84dd-4a8e-a08a-7a36f180cc75.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/bf/bf0a434c-84dd-4a8e-a08a-7a36f180cc75.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/c9/c9fa51ff-3f01-4601-8f80-325d1b11dab7.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/c9/c9fa51ff-3f01-4601-8f80-325d1b11dab7.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/ca/ca8401fe-ad6e-41a8-bd46-8e3e4e9945be.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/ca/ca8401fe-ad6e-41a8-bd46-8e3e4e9945be.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/cb/cbd18b5f-e036-4cd2-8c9b-ac300640899e.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/cb/cbd18b5f-e036-4cd2-8c9b-ac300640899e.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/cd/cd33edea-55f5-46c2-958d-357a01384a36.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/cd/cd33edea-55f5-46c2-958d-357a01384a36.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/ce/ce6015fe-3764-468d-8cb0-803ea61ea654.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/ce/ce6015fe-3764-468d-8cb0-803ea61ea654.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/d1/d1b8be49-b0a0-435c-83b7-552bed4bbe35.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/d1/d1b8be49-b0a0-435c-83b7-552bed4bbe35.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/d8/d8745253-c548-46b3-aa2f-89c740f531c4.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/d8/d8745253-c548-46b3-aa2f-89c740f531c4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/df/dfebc762-82e4-49f5-a884-cabf723ceb4f.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/df/dfebc762-82e4-49f5-a884-cabf723ceb4f.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/e7/e7aba14b-f956-4480-b254-8d57832e273f.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/e7/e7aba14b-f956-4480-b254-8d57832e273f.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/e9/e9ec654c-97a2-4787-9325-e6a10375219a.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/e9/e9ec654c-97a2-4787-9325-e6a10375219a.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/ef/efb9e451-b2ee-4abf-90b1-66304a4f7755.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/ef/efb9e451-b2ee-4abf-90b1-66304a4f7755.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/f0/f0048c10-f03e-4c97-b9d3-3506e1d58952.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/f0/f0048c10-f03e-4c97-b9d3-3506e1d58952.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/f8/f8682b90-d2e3-442f-8ac6-5bd8830420b0.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/f8/f8682b90-d2e3-442f-8ac6-5bd8830420b0.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/imports/fb/fbbe0a2a-6233-47ca-a0d9-1b5559aec85b.json" afterPath="$PROJECT_DIR$/pianotile/library/imports/fb/fbbe0a2a-6233-47ca-a0d9-1b5559aec85b.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/library/uuid-to-mtime.json" afterPath="$PROJECT_DIR$/pianotile/library/uuid-to-mtime.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/local/assets.json" afterPath="$PROJECT_DIR$/pianotile/local/assets.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/local/console.json" afterPath="$PROJECT_DIR$/pianotile/local/console.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/local/hierarchy.json" afterPath="$PROJECT_DIR$/pianotile/local/hierarchy.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/local/layout.windows.json" afterPath="$PROJECT_DIR$/pianotile/local/layout.windows.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/local/local.json" afterPath="$PROJECT_DIR$/pianotile/local/local.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/local/logs/project.log" afterPath="$PROJECT_DIR$/pianotile/local/logs/project.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/local/node-library.json" afterPath="$PROJECT_DIR$/pianotile/local/node-library.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/local/scene.json" afterPath="$PROJECT_DIR$/pianotile/local/scene.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/settings/project.json" afterPath="$PROJECT_DIR$/pianotile/settings/project.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/temp/BackupAssets/assets/begin-tile.prefab" afterPath="$PROJECT_DIR$/pianotile/temp/BackupAssets/assets/begin-tile.prefab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/temp/BackupAssets/assets/main-scene.fire" afterPath="$PROJECT_DIR$/pianotile/temp/BackupAssets/assets/main-scene.fire" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/temp/quick-scripts/assets/scripts/main-script.js" afterPath="$PROJECT_DIR$/pianotile/temp/quick-scripts/assets/scripts/main-script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/temp/quick-scripts/assets/scripts/main-script.js.map" afterPath="$PROJECT_DIR$/pianotile/temp/quick-scripts/assets/scripts/main-script.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/temp/quick-scripts/assets/scripts/tile-script.js" afterPath="$PROJECT_DIR$/pianotile/temp/quick-scripts/assets/scripts/tile-script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pianotile/temp/quick-scripts/assets/scripts/tile-script.js.map" afterPath="$PROJECT_DIR$/pianotile/temp/quick-scripts/assets/scripts/tile-script.js.map" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,13 +157,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="639" column="38" lean-forward="false" selection-start-line="639" selection-start-column="27" selection-end-line="639" selection-end-column="38" />
+            <state relative-caret-position="487">
+              <caret line="567" column="14" lean-forward="false" selection-start-line="567" selection-start-column="14" selection-end-line="567" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="res.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game/forgame/js/libs/modules/res/res.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-871">
+              <caret line="3" column="7003" lean-forward="false" selection-start-line="3" selection-start-column="7003" selection-end-line="3" selection-end-column="7003" />
               <folding />
             </state>
           </provider>
@@ -27,18 +183,8 @@
       <file leaf-file-name="egretFlax.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game/forgame/js/libs/modules/egretFlax/egretFlax.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6414">
-              <caret line="4" column="5197" lean-forward="false" selection-start-line="4" selection-start-column="5197" selection-end-line="4" selection-end-column="5197" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EcmaScript.js" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+            <state relative-caret-position="190">
+              <caret line="948" column="33" lean-forward="false" selection-start-line="948" selection-start-column="33" selection-end-line="948" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -54,11 +200,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="egret.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/forgame/js/libs/modules/egret/egret.d.ts">
+      <file leaf-file-name="creator.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pianotile/creator.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8613">
-              <caret line="6322" column="8" lean-forward="false" selection-start-line="6322" selection-start-column="8" selection-end-line="6322" selection-end-column="8" />
+            <state relative-caret-position="-4975">
+              <caret line="9914" column="8" lean-forward="false" selection-start-line="9914" selection-start-column="8" selection-end-line="9914" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -68,7 +214,7 @@
         <entry file="file://$PROJECT_DIR$/musics/Passacaglia.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+              <caret line="0" column="2356" lean-forward="false" selection-start-line="0" selection-start-column="2356" selection-end-line="0" selection-end-column="2356" />
               <folding />
             </state>
           </provider>
@@ -77,29 +223,29 @@
       <file leaf-file-name="default.res.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resource/default.res.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="289" column="22" lean-forward="false" selection-start-line="289" selection-start-column="15" selection-end-line="289" selection-end-column="22" />
+            <state relative-caret-position="136">
+              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="15.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pianotile/assets/img/tiles/15.png">
+      <file leaf-file-name="new_ui_sprite.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game/forgame/img/new_ui_sprite.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="15.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pianotile/assets/img/bg/15.png">
+      <file leaf-file-name="default_b.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game/logo/default_b.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="13.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/assets/contents/tiles/13.png">
+      <file leaf-file-name="default_s.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game/logo/default_s.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -109,20 +255,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>9x_png</find>
-      <find>backg</find>
-      <find>_tilesArr</find>
-      <find>gameStart</find>
-      <find>onUpdate</find>
-      <find>startview</find>
-      <find>currentMusicData</find>
-      <find>onResizeHandler</find>
-      <find>_gameTile</find>
-      <find>line</find>
-      <find>GameScene1</find>
-      <find>0_png</find>
-      <find>onupdatespeed</find>
-      <find>speed</find>
       <find>13.png</find>
       <find>132_png</find>
       <find>onupdate</find>
@@ -139,6 +271,20 @@
       <find>_addTile</find>
       <find>resize</find>
       <find>onResize</find>
+      <find>s_btn</find>
+      <find>song_json</find>
+      <find>song</find>
+      <find>Movie_cycle.mp3</find>
+      <find>Movie_cycle_mp3</find>
+      <find>_onLoadMusicComplete</find>
+      <find>_replaceAll</find>
+      <find>g1._a1.d2</find>
+      <find>initSong</find>
+      <find>_soundArr</find>
+      <find>_onTap</find>
+      <find>_idx</find>
+      <find>checkWin</find>
+      <find>g1</find>
     </findStrings>
     <replaceStrings>
       <replace>,</replace>
@@ -151,6 +297,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/resource/swfs/game.json" />
+        <option value="$PROJECT_DIR$/game/forgame/js/libs/modules/egretFlax/egretFlax.min.js" />
         <option value="$PROJECT_DIR$/main.js" />
       </list>
     </option>
@@ -169,8 +316,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="118" />
-    <option name="width" value="1314" />
+    <option name="x" value="70" />
+    <option name="width" value="1295" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
@@ -188,110 +335,180 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="pianoTLs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pianoTLs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pianoTLs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pianoTLs" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pianoTLs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pianoTLs" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="forgame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pianoTLs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pianoTLs" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="forgame" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pianoTLs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pianoTLs" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="forgame" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pianoTLs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pianoTLs" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="logo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pianoTLs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pianoTLs" type="462c0819:PsiDirectoryNode" />
-              <item name="musics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pianoTLs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pianoTLs" type="462c0819:PsiDirectoryNode" />
-              <item name="pianotile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pianoTLs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pianoTLs" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pianoTLs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pianoTLs" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pianoTLs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pianoTLs" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pianoTLs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pianoTLs" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="contents" type="462c0819:PsiDirectoryNode" />
-              <item name="tiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pianoTLs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pianoTLs" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pianoTLs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pianoTLs" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="scene" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pianoTLs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pianoTLs" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="songs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pianoTLs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pianoTLs" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="swfs" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sound" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="songs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scene" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="musics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forgame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forgame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pianoTLs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forgame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,7 +516,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tiaoyitiao-master/dev_wxgame" />
+    <property name="last_opened_file_path" value="D:/tiaoyitiao-master/dev_wxgame" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="F:/software/node" />
   </component>
@@ -315,6 +532,68 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -326,37 +605,38 @@
       <option name="presentableId" value="Default" />
       <updated>1522201758476</updated>
       <workItem from="1522201759884" duration="28780000" />
+      <workItem from="1522334276192" duration="9245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51500000" />
+    <option name="totallyTimeSpent" value="60745000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="118" y="0" width="1314" height="1057" extended-state="0" />
+    <frame x="70" y="0" width="1295" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19106318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1915559" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18961865" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18901795" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -366,26 +646,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resource/swfs/game/z11.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/swfs/game/wbk.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/forgame/js/jquery-2.1.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scene/GameScene.ts" />
     <entry file="file://$PROJECT_DIR$/src/scene/GameScene.js" />
     <entry file="file://$PROJECT_DIR$/src/scene/BeginScene.js" />
@@ -399,16 +659,6 @@
     <entry file="file://$PROJECT_DIR$/scripts/bricks/bricks.js" />
     <entry file="file://$PROJECT_DIR$/template/web/index.html" />
     <entry file="file://$PROJECT_DIR$/scripts/config.js" />
-    <entry file="file://$PROJECT_DIR$/game/logo/default_b.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/logo/default_s.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/game/forgame/css/game.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -437,11 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/forgame/img/go.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/game/forgame/img/ellipsis.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -453,7 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -469,14 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="129" column="10" lean-forward="true" selection-start-line="129" selection-start-column="10" selection-end-line="129" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/forgame/js/libs/modules/res/res.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="3" column="601" lean-forward="false" selection-start-line="3" selection-start-column="601" selection-end-line="3" selection-end-column="601" />
           <folding />
         </state>
       </provider>
@@ -517,7 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1518">
           <caret line="4486" column="8" lean-forward="false" selection-start-line="4486" selection-start-column="8" selection-end-line="4486" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -526,19 +761,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="33" column="45" lean-forward="false" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/game/forgame/js/libs/modules/egret/egret.web.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="4677" column="19" lean-forward="true" selection-start-line="4677" selection-start-column="19" selection-end-line="4677" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -546,7 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="135" column="36" lean-forward="true" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -562,13 +787,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/assets/contents/tiles/13.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pianotile/assets/img/bg/15.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/forgame/js/libs/modules/egret/egret.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120118">
+          <caret line="6322" column="8" lean-forward="false" selection-start-line="6322" selection-start-column="8" selection-end-line="6322" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pianotile/assets/img/tiles/15.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/forgame/img/go.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/forgame/img/loading.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/forgame/img/new_ui_sprite.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/logo/default_b.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/logo/default_s.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/forgame/js/libs/modules/egretFlax/egretFlax.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="948" column="33" lean-forward="false" selection-start-line="948" selection-start-column="33" selection-end-line="948" selection-end-column="33" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/songs/song.json">
@@ -579,60 +870,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/musics/Passacaglia.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <caret line="0" column="2356" lean-forward="false" selection-start-line="0" selection-start-column="2356" selection-end-line="0" selection-end-column="2356" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pianotile/assets/img/bg/15.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/pianotile/creator.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4975">
+          <caret line="9914" column="8" lean-forward="false" selection-start-line="9914" selection-start-column="8" selection-end-line="9914" selection-end-column="8" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pianotile/assets/img/tiles/15.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/game/forgame/js/libs/modules/res/res.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-871">
+          <caret line="3" column="7003" lean-forward="false" selection-start-line="3" selection-start-column="7003" selection-end-line="3" selection-end-column="7003" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/default.res.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="289" column="22" lean-forward="false" selection-start-line="289" selection-start-column="15" selection-end-line="289" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/forgame/js/libs/modules/egretFlax/egretFlax.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6414">
-          <caret line="4" column="5197" lean-forward="false" selection-start-line="4" selection-start-column="5197" selection-end-line="4" selection-end-column="5197" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/forgame/js/libs/modules/egret/egret.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8613">
-          <caret line="6322" column="8" lean-forward="false" selection-start-line="6322" selection-start-column="8" selection-end-line="6322" selection-end-column="8" />
+        <state relative-caret-position="136">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="639" column="38" lean-forward="false" selection-start-line="639" selection-start-column="27" selection-end-line="639" selection-end-column="38" />
+        <state relative-caret-position="487">
+          <caret line="567" column="14" lean-forward="false" selection-start-line="567" selection-start-column="14" selection-end-line="567" selection-end-column="14" />
           <folding />
         </state>
       </provider>

@@ -195,6 +195,7 @@ var GameScene1 = function(e) {
 			t.onResizeHandler(null),
 			t.replayGame(),
 			RES.getResByUrl(GameData.currentMusicData.url, t._onLoadMusicComplete, t, RES.ResourceItem.TYPE_JSON),
+			console.log('GameData.currentMusicData.url', GameData.currentMusicData.url),
 			t
 	}
 	return __extends(t, e),

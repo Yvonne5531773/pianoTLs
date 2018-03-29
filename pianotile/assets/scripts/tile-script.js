@@ -17,16 +17,12 @@ cc.Class({
 				this.node.off("touchstart", touchFunc, false);
 				switch (this._type) {
 					case 'START':
-						//播放音乐
 						this._mainScript._start = true;
-						console.log('startstartstartstart')
 						this._mainScript.node.on("touchstart", this.onStartDown, this)
 						break;
 					case 'BLACK':
-						//播放音乐
 						break;
 					case 'LONG':
-						//播放音乐
 						break;
 					default:
 						break;
@@ -34,6 +30,8 @@ cc.Class({
 				const curTile = this._mainScript._tilesArr[this._mainScript._curBottomRow]
 				curTile._destory = !curTile._destory
 				this._mainScript._curBottomRow++
+				//音效和是否胜利
+				this._mainScript.onTap()
 			} else {
 				if(!this._mainScript._start) return
 				if(!!~['BLACK', 'LONG'].indexOf(this.node.type)) {

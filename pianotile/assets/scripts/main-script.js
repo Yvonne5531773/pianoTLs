@@ -1,4 +1,4 @@
-import songs from '../../assets/json/songs/song'
+import resource from 'index'
 
 cc.Class({
 	extends: cc.Component,
@@ -31,6 +31,20 @@ cc.Class({
 		_tilesArr: [],
 		_errors: [],
 		_offestY: null,
+		_soundArr: null,
+		_soundData: null
+	},
+
+	initSong (data) {
+		this._soundData = data.musics[0];
+		console.log('initSong data', data)
+		let arr,
+			scores = this._soundData.scores,
+			score = scores[0];
+		score = this.replaceAll(score);
+		arr = score.split(",");
+		this._soundArr = arr;
+		console.log('arr', arr)
 	},
 
 	onLoad () {
@@ -44,8 +58,43 @@ cc.Class({
 		this._tilesArr = []
 		this._errors = ['ERROR_SPOT']
 		this._offestY = 0
+		this._soundArr = []
+		this._soundData = []
+
+		const node = cc.director.getScene().getChildByName('data-store'),
+			data = node.getComponent('datastore-script').getdata(),
+			songURL = data.url
+		console.log('songURL', songURL)
+		cc.loader.loadRes(songURL, this.onLoadMusicCompleted.bind(this));
+
 		for (let i = 0; i <= this.initRow; i++)
 			this.addTile()
+	},
+
+	onLoadMusicCompleted (err, res) {
+		if(err) return
+		console.log('onLoadMusicCompleted res', res)
+		this.initSong(res)
+	},
+
+	onTap () {
+		let name,
+			a = null,
+			i = this._soundArr[this._idx];
+		i.indexOf("(") > -1 ? (i = i.replace(/\(/gm, ""),
+			i = i.replace(/\)/gm, ""),
+			a = i.split("."),
+			name = a[a.length - 1] + "_mp3") : (name = i + "_mp3")
+		const res = resource.resources.find((resource) => {
+			return resource.name === name
+		})
+		//播放每个键音
+		res && cc.audioEngine.play(cc.url.raw('resources/'+res.url), false, 1)
+		this.checkWin()
+	},
+
+	checkWin() {
+		this._idx++
 	},
 
 	addTile () {
@@ -87,10 +136,6 @@ cc.Class({
 		return this._tilesArr[this._curBottomRow]
 	},
 
-	initSong() {
-
-	},
-
 	update (dt) {
 		if(!this._start || this._end) return
 		this._offestY += this.speed
@@ -120,10 +165,6 @@ cc.Class({
 		})
 	},
 
-	destroyTile (tile) {
-		this.movePanel.removeChild(tile)
-	},
-
 	showWrongBlackTile(tile) {
 		const fadeIn = cc.fadeIn(.6).easing(cc.easeCubicActionOut()),
 			fadeOut = cc.fadeOut(.6).easing(cc.easeCubicActionOut()),
@@ -150,19 +191,47 @@ cc.Class({
 		)
 	},
 
+	destroyTile (tile) {
+		this.movePanel.removeChild(tile)
+	},
+
 	gameover(type) {
 		// console.log('gameover')
 		this._end = true
 	},
 
-	// move() {
-	// 	const movePosition = cc.v2(this._startPosition.x,(this._startPosition.y + (this._curBottomRow + 1) * -150));
-	// 	console.log('move movePosition', movePosition)
-	// 	console.log('move this.movePanel', this.movePanel)
-	// 	this.movePanel.runAction(cc.sequence(
-	// 		cc.moveTo(0.2, movePosition),
-	// 		cc.callFunc(this.updateRender.bind(this))
-	// 	))
-	// }
-
+	replaceAll (e) {
+		return e = e.replace(/;/gm, ","),
+			e = e.replace(/\[L\]/gm, ""),
+			e = e.replace(/\[M\]/gm, ""),
+			e = e.replace(/\[N\]/gm, ""),
+			e = e.replace(/\[I\]/gm, ""),
+			e = e.replace(/\[J\]/gm, ""),
+			e = e.replace(/\[K\]/gm, ""),
+			e = e.replace(/\[KL\]/gm, ""),
+			e = e.replace(/\[JK\]/gm, ""),
+			e = e.replace(/\[JL\]/gm, ""),
+			e = e.replace(/\[LM\]/gm, ""),
+			e = e.replace(/\[LL\]/gm, ""),
+			e = e.replace(/\[KM\]/gm, ""),
+			e = e.replace(/\[KKK\]/gm, ""),
+			e = e.replace(/\[IJ]/gm, ""),
+			e = e.replace(/\[KLM]/gm, ""),
+			e = e.replace(/#/gm, "_"),
+			e = e.replace(/U,/gm, ""),
+			e = e.replace(/T,/gm, ""),
+			e = e.replace(/T/gm, ""),
+			e = e.replace(/V,/gm, ""),
+			e = e.replace(/V>/gm, "d"),
+			e = e.replace(/5</gm, ""),
+			e = e.replace(/6</gm, ""),
+			e = e.replace(/>/gm, ""),
+			e = e.replace(/@/gm, "."),
+			e = e.replace(/~/gm, "."),
+			e = e.replace(/S/gm, "d"),
+			e = e.replace(/%/gm, "."),
+			e = e.replace(/\^/gm, "."),
+			e = e.replace(/\&/gm, "."),
+			e = e.substring(0, e.lastIndexOf(","))
+	},
 });

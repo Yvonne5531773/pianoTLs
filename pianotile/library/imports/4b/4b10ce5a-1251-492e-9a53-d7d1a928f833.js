@@ -4,9 +4,9 @@ cc._RF.push(module, '4b10c5aElFJLppT19GpKPgz', 'main-script');
 
 'use strict';
 
-var _song = require('../../assets/json/songs/song');
+var _index = require('index');
 
-var _song2 = _interopRequireDefault(_song);
+var _index2 = _interopRequireDefault(_index);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -40,9 +40,22 @@ cc.Class({
 		_arr: [],
 		_tilesArr: [],
 		_errors: [],
-		_offestY: null
+		_offestY: null,
+		_soundArr: null,
+		_soundData: null
 	},
 
+	initSong: function initSong(data) {
+		this._soundData = data.musics[0];
+		console.log('initSong data', data);
+		var arr = void 0,
+		    scores = this._soundData.scores,
+		    score = scores[0];
+		score = this.replaceAll(score);
+		arr = score.split(",");
+		this._soundArr = arr;
+		console.log('arr', arr);
+	},
 	onLoad: function onLoad() {
 		this._curBottomRow = 0;
 		this._newTopRow = 0;
@@ -54,9 +67,42 @@ cc.Class({
 		this._tilesArr = [];
 		this._errors = ['ERROR_SPOT'];
 		this._offestY = 0;
+		this._soundArr = [];
+		this._soundData = [];
+
+		var node = cc.director.getScene().getChildByName('data-store'),
+		    data = node.getComponent('datastore-script').getdata(),
+		    songURL = data.url;
+		console.log('songURL', songURL);
+		cc.loader.loadRes(songURL, this.onLoadMusicCompleted.bind(this));
+
 		for (var i = 0; i <= this.initRow; i++) {
 			this.addTile();
 		}
+	},
+	onLoadMusicCompleted: function onLoadMusicCompleted(err, res) {
+		if (err) return;
+		console.log('onLoadMusicCompleted res', res);
+		this.initSong(res);
+	},
+	onTap: function onTap() {
+		var name = void 0,
+		    a = null,
+		    i = this._soundArr[this._idx];
+		i.indexOf("(") > -1 ? (i = i.replace(/\(/gm, ""), i = i.replace(/\)/gm, ""), a = i.split("."), name = a[a.length - 1] + "_mp3") : name = i + "_mp3";
+		var res = _index2.default.resources.find(function (resource) {
+			return resource.name === name;
+		});
+		// res && cc.loader.load(cc.url.raw('resources/'+res.url), function(){
+		// 	console.log('onTap load end')
+		// });
+		res && cc.audioEngine.play(cc.url.raw('resources/' + res.url), false, 1);
+		// RES.getRes(url)
+		// XFlash.playEffect(url, 1)
+		this.checkWin();
+	},
+	checkWin: function checkWin() {
+		this._idx++;
 	},
 	addTile: function addTile() {
 		var y = this._tilesArr.length === 0 ? 0 : this._tilesArr[this._tilesArr.length - 1].y,
@@ -85,7 +131,6 @@ cc.Class({
 	getCurrentTile: function getCurrentTile() {
 		return this._tilesArr[this._curBottomRow];
 	},
-	initSong: function initSong() {},
 	update: function update(dt) {
 		var _this = this;
 
@@ -117,9 +162,6 @@ cc.Class({
 			child.runAction(jumpUp);
 		});
 	},
-	destroyTile: function destroyTile(tile) {
-		this.movePanel.removeChild(tile);
-	},
 	showWrongBlackTile: function showWrongBlackTile(tile) {
 		var fadeIn = cc.fadeIn(.6).easing(cc.easeCubicActionOut()),
 		    fadeOut = cc.fadeOut(.6).easing(cc.easeCubicActionOut()),
@@ -135,22 +177,16 @@ cc.Class({
 		    sequences = [fadeIn, fadeOut, fadeIn, fadeOut, fadeIn];
 		tile && (tile.name = 'TILE_' + 'RED', tile.scaleX = this.tileWidth / 135, tile.scaleY = this.tileHeight / 238, this.movePanel.addChild(tile), tile.x = x * this.tileWidth, tile.y = (y + 1 + this._newTopRow) * this.tileHeight - this._offestY, tile.runAction(cc.sequence(sequences)), this.gameover(this._errors[0]));
 	},
+	destroyTile: function destroyTile(tile) {
+		this.movePanel.removeChild(tile);
+	},
 	gameover: function gameover(type) {
 		// console.log('gameover')
 		this._end = true;
+	},
+	replaceAll: function replaceAll(e) {
+		return e = e.replace(/;/gm, ","), e = e.replace(/\[L\]/gm, ""), e = e.replace(/\[M\]/gm, ""), e = e.replace(/\[N\]/gm, ""), e = e.replace(/\[I\]/gm, ""), e = e.replace(/\[J\]/gm, ""), e = e.replace(/\[K\]/gm, ""), e = e.replace(/\[KL\]/gm, ""), e = e.replace(/\[JK\]/gm, ""), e = e.replace(/\[JL\]/gm, ""), e = e.replace(/\[LM\]/gm, ""), e = e.replace(/\[LL\]/gm, ""), e = e.replace(/\[KM\]/gm, ""), e = e.replace(/\[KKK\]/gm, ""), e = e.replace(/\[IJ]/gm, ""), e = e.replace(/\[KLM]/gm, ""), e = e.replace(/#/gm, "_"), e = e.replace(/U,/gm, ""), e = e.replace(/T,/gm, ""), e = e.replace(/T/gm, ""), e = e.replace(/V,/gm, ""), e = e.replace(/V>/gm, "d"), e = e.replace(/5</gm, ""), e = e.replace(/6</gm, ""), e = e.replace(/>/gm, ""), e = e.replace(/@/gm, "."), e = e.replace(/~/gm, "."), e = e.replace(/S/gm, "d"), e = e.replace(/%/gm, "."), e = e.replace(/\^/gm, "."), e = e.replace(/\&/gm, "."), e = e.substring(0, e.lastIndexOf(","));
 	}
-}
-
-// move() {
-// 	const movePosition = cc.v2(this._startPosition.x,(this._startPosition.y + (this._curBottomRow + 1) * -150));
-// 	console.log('move movePosition', movePosition)
-// 	console.log('move this.movePanel', this.movePanel)
-// 	this.movePanel.runAction(cc.sequence(
-// 		cc.moveTo(0.2, movePosition),
-// 		cc.callFunc(this.updateRender.bind(this))
-// 	))
-// }
-
-);
+});
 
 cc._RF.pop();
